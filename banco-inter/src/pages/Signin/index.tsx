@@ -28,7 +28,7 @@ const SignIn = () => {
                     >
                         ENTRAR
                     </Button>
-                    <p>Ainda não é cadastrado? <Link to="/signup">Cadastra-se</Link></p>
+                    <p>Ainda não é cadastrado? <Link to="/signup">Criar Conta</Link></p>
                 </ButtonContainer>
             </Card>
         </Wrapper>
