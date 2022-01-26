@@ -17,7 +17,7 @@ export const Background = styled.div<{image: any}> `
     left: 0;
     height: 50vh;
     background-image: url(${props => props.image});
-    background-size: 100% 100%;
+    background-size: contain;
     z-index: -1;
 `
 export const InputContainer = styled.div `
@@ -33,12 +33,12 @@ export const ButtonContainer = styled.div `
     flex-direction: column;
 
     p {
-        font-size: 0.75ren;
-        font-weight: 400;
+        font-size: 0.85rem;
+        font-weight: 500;
         color: ${theme.colors.secondary};
 
         a {
-            font-size: 1ren;
+            font-size: 1rem;
             font-weight: 700;
         }
     }
