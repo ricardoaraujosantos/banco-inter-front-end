@@ -17,7 +17,11 @@ export const InputContainer = styled.div `
         width: 100%;
         margin: 0 20px;
         font-weight: 400;
-        font-size: 0.75rem;
-        border: 0;
+        font-size: 0.85rem;
+        border: none;
+        
+        &:focus {
+            outline: 0;
+        }
     }
 `

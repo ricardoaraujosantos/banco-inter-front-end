@@ -2,7 +2,7 @@
 const SignUp = () => {
     return(
         <div>
-            Sair
+            Cadastrar
         </div>
     )
 }

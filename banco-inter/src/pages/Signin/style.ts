@@ -32,14 +32,18 @@ export const ButtonContainer = styled.div `
     align-items: center;
     flex-direction: column;
 
-    p {
+    p{
+        font-family: Roboto, sans-serif
         font-size: 0.85rem;
-        font-weight: 500;
-        color: ${theme.colors.secondary};
+        font-weight: 400;
+       
 
         a {
-            font-size: 1rem;
+            font-family: Roboto, sans-serif
+            font-size: 0.95rem;
             font-weight: 700;
+            color: ${theme.colors.primary};
+            text-decoration: none;
         }
     }
 `

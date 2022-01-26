@@ -4,9 +4,15 @@ import logoInter from "../../assets/images/logointer.png"
 import Card from "../../components/Card";
 import Input from "../../components/Input"
 import Button from "../../components/Button"
-import { Link } from "react-router-dom";
+import { useNavigate ,Link } from "react-router-dom";
 
 const SignIn = () => {
+    const navigate = useNavigate();
+    
+    const handleToSignIn = () =>{
+        navigate('/dashboard');
+    }
+
     return(
         <Wrapper>
             <Background image={background}/>
@@ -17,10 +23,12 @@ const SignIn = () => {
                     <Input placeholder="SENHA" type="password"/>
                 </InputContainer>
                 <ButtonContainer>
-                    <Button type="button">
+                    <Button type="button"
+                            onClick={handleToSignIn}
+                    >
                         ENTRAR
                     </Button>
-                    <p>Ainda não é cadastrado? <Link to="/signup">Cadastrar</Link></p>
+                    <p>Ainda não é cadastrado? <Link to="/signup">Cadastra-se</Link></p>
                 </ButtonContainer>
             </Card>
         </Wrapper>
