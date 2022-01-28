@@ -1,9 +1,13 @@
-
+import Header from "../../components/Header";
+import {DashboardBackground, BodyContainer, InlineContainer, InlineTitle} from "./styles"
 const DashBoard = () => {
     return(
-        <div>
-            Painel de controle
-        </div>
+        <DashboardBackground>
+           <Header />
+           <BodyContainer>
+               
+           </BodyContainer>
+        </DashboardBackground>
     )
 }
 
