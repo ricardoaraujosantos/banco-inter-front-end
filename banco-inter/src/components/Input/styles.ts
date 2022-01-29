@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { theme } from "../../styles/theme";
 
-export const InputContainer = styled.div `
+export const InputContainer = styled.div`
     display:flex;
     justfy-content: center;
     z-index: 5000;

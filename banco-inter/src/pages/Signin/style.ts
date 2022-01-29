@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { theme } from "../../styles/theme";
 
-export const Wrapper = styled.main `
+export const Wrapper = styled.main`
     width: 100%;
     height: 100vh;
     position: relative;
@@ -20,12 +20,12 @@ export const Background = styled.div<{image: any}> `
     background-size: contain;
     z-index: -1;
 `
-export const InputContainer = styled.div `
+export const InputContainer = styled.div`
     width: 90%;
     margin-top: 67px;
     flex: 1;
 `
-export const ButtonContainer = styled.div `
+export const ButtonContainer = styled.div`
     width: 90%;
     margin-top: 20px;
     display: flex;

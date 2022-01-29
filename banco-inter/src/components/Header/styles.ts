@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { theme } from "../../styles/theme"
 
-export const HeaderContainer = styled.head `
+export const HeaderContainer = styled.head`
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@ export const HeaderContainer = styled.head `
     height: 90px;
     background-color: ${theme.colors.background};
 `
-export const HeaderWrapper = styled.div `
+export const HeaderWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
